@@ -262,16 +262,3 @@ h1 {
 .quiz_answers input[type="radio"] {
   margin-right: 10px;
 }
-
-#quiz_button {
-  background-color: #4CAF50;
-  color: black;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-#quiz_button:hover {
-  background-color: #668766;
-}
