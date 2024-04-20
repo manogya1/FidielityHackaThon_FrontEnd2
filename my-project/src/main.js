@@ -1,4 +1,18 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import $ from 'jquery';
 
-createApp(App).mount('#app')
+$(document).ready(function() {
+    $('#home_button').click(function() {
+      $('#home_container').fadeOut('slow', function() {
+        $('#concept_page').fadeIn('slow');
+        $('html, body').animate({
+          scrollTop: $('#concept_page').offset().top
+        }, 'slow');
+      });
+    });
+  
+    $('#back_to_home').click(function() {
+      $('#concept_page').fadeOut('slow', function() {
+        $('#home_container').fadeIn('slow');
+      });
+    });
+  });
