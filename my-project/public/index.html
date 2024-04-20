@@ -9,7 +9,7 @@
 <body>
   <div id="app">
     <div class="container" id="home_container">
-      <img class="logo" id="home_logo" src="../public/assets/logo.jpeg" alt="Logo" width="50" height="50">
+      <img class="logo" id="home_logo" src="./assets/logo.jpeg" alt="Logo" width="50" height="50">
       <h1 class="title" id="home_title">Hack A Thorn</h1>
       <div class="content" id="home_content">
         <h2 id="home_h2">Welcome to Fidelity K-2</h2>
@@ -25,9 +25,8 @@
       <h2 id="concept_title">Ready?</h2>
       
       <div id="concept_content">
-        
         <div class="chat-container" style="width: 100%; height: 100%;">
-          <img id="character_image" src="../public/assets/character.png" alt="Character Image">
+          <img id="character_image" src="./assets/character.png" alt="Character Image">
           <p class="chat">Hey there! Ready to kickstart your journey to becoming a millionaire?</p>
         </div>
       </div>
@@ -35,7 +34,7 @@
     </div>
 
     <div id="lesson1_container">
-      <a id="back_to_concept" href="#" class="back-button">&larr; Back to Concept</a>
+      <a id="back_to_concept" href="#" class="back-button">&larr;Go Back</a>
       <h2 class="title" id="Lesson1">Lesson One</h2>
       <div class="content" id="lesson_content">
         <h1 id="concept_title"><b>What is Money?</b></h1>
@@ -48,55 +47,112 @@
   </div>
 
   <div id="lesson2_container">
-    <a id="back_to_concept1" href="#" class="back-button">&larr; Back to Lesson One</a>
+    <a id="back_to_concept1" href="#" class="back-button">&larr; Back to Lesson 1</a>
     <h2 class="title" id="Lesson2">Lesson Two</h2>
     <div class="content" id="lesson_content">
       <h1 id="concept_title"><b>Why we save</b></h1>
       <div class="lesson">
-        <p>This lesson focuses on two types of money: paper and coins. The students identify money and its value (its buying power) while participating in a money-matching activity. They estimate the number of coins in a can, then they determine the exact number of coins and their value in terms of dollars and cents.</p>
+        <p>The students create a banner depicting the choices they make and the opportunity costs they incur. They learn about saving money in order to satisfy a want. They make and decorate a special vest, which serves as a prop that the students use to consider choices and opportunity costs.
+
+          People make decisions about spending and saving. If people save, they incur an opportunity cost—giving up the opportunity to satisfy their most favored want at the present time. If people spend, they give up the opportunity to save—which, in turn, would create an opportunity to buy goods and services in the future. In either case, they incur an opportunity cost. The decision they face is choosing the option with the lower opportunity cost.</p>
       </div>
     </div>
     <button class="button" id="next_button3">Next</button>
   </div>
 
   <div id="lesson3_container">
-    <a id="back_to_concept2" href="#" class="back-button">&larr; Back to Lesson Two</a>
+    <a id="back_to_concept2" href="#" class="back-button">&larr; Back to Lesson 2</a>
     <h2 class="title" id="Lesson3">Lesson Third</h2>
     <div class="content" id="lesson_content">
       <h1 id="concept_title"><b>A good day for money</b></h1>
       <div class="lesson">
-        <p>This lesson focuses on two types of money: paper and coins. The students identify money and its value (its buying power) while participating in a money-matching activity. They estimate the number of coins in a can, then they determine the exact number of coins and their value in terms of dollars and cents.</p>
+        <p>The students listen to a short story introducing them to Penny and Nicholas, the “Money Kids.” They discuss ways in which people receive money—through earning income or receiving gifts. The students are introduced to the concept of human capital (work skills) and the relationship between people’s ability to earn income and the education and training they have. The students also produce a paper chain representing ways in which they have received money.</p>
       </div>
     </div>
     <button class="button" id="next_button4">Next</button>
   </div>
 
   <div id="lesson4_container">
-    <a id="back_to_concept3" href="#" class="back-button">&larr; Back to Lesson Three</a>
+    <a id="back_to_concept3" href="#" class="back-button">&larr; Back to Lesson 3</a>
     <h2 class="title" id="Lesson4">Lesson Four</h2>
     <div class="content" id="lesson_content">
       <h1 id="concept_title"><b>Saving makes us wait</b></h1>
       <div class="lesson">
-        <p>This lesson focuses on two types of money: paper and coins. The students identify money and its value (its buying power) while participating in a money-matching activity. They estimate the number of coins in a can, then they determine the exact number of coins and their value in terms of dollars and cents.</p>
+        <p>TIn a simulation activity, the students set a goal and save money to achieve that goal. They discuss the costs and benefits of saving by completing a decision grid. Using a magic mirror, the students gaze into the future and imagine things they will want to have when they are adults. They learn that people must plan for future wants.</p>
       </div>
     </div>
     <button class="button" id="next_button5">Next</button>
   </div>
 </div>
 
-<!-- <div id="courseEnd_page">
-  <a id="back_to_home" href="#" class="back-button">&larr; Back to Home</a>
-  <h2 id="concept_title">Good Job!</h2>
+<div id="courseEnd_page">
+  <a id="back_to_lesson4" href="#" class="back-button">&larr; Back to Lesson 4</a>
+  <h2 id="title" id="courseEnd">Yay! You Made it!</h2>
   
-  <div id="concept_content">
-    
+  <div id="content">
     <div class="chat-container" style="width: 100%; height: 100%;">
-      <img id="character_image" src="../src/assets/character.png" alt="Character Image">
-      <p class="chat">Hey there! Ready to kickstart your journey to becoming a millionaire?</p>
+      <img id="character_image" src="./assets/character.png" alt="Character Image">
+      <p class="chat">Alright, folks! Time to put those freshly acquired skills to the test.</p>
     </div>
   </div>
-  <button class="button" id="next_button">Next</button>
-</div> -->
+  <button class="button" id="quiz_start_button">Start Quiz</button>
+</div>
+
+<div id="quiz_page">
+  <a id="back_to_courseEnd" href="#" class="back-button">&larr; Go back</a>
+  <div class="question" id="question1">
+    <p>1. What is the capital of France?</p>
+    <div class="quiz_answers">
+      <label><input type="radio" name="q1" value="paris"> Paris</label>
+      <label><input type="radio" name="q1" value="berlin"> Berlin</label>
+      <label><input type="radio" name="q1" value="london"> London</label>
+      <label><input type="radio" name="q1" value="rome"> Rome</label>
+    </div>
+  </div>
+  <div class="question-bubble" id="question2">
+    <p>2. What is 2 + 2?</p>
+    <div class="quiz_answers">
+      <label><input type="radio" name="q2" value="3"> 3</label>
+      <label><input type="radio" name="q2" value="4"> 4</label>
+      <label><input type="radio" name="q2" value="5"> 5</label>
+      <label><input type="radio" name="q2" value="6"> 6</label>
+    </div>
+  </div>
+  <div class="question-bubble" id="question3">
+    <p>3. Who wrote "Romeo and Juliet"?</p>
+    <div class="quiz_answers">
+      <label><input type="radio" name="q3" value="shakespeare"> Shakespeare</label>
+      <label><input type="radio" name="q3" value="tolstoy"> Tolstoy</label>
+      <label><input type="radio" name="q3" value="homer"> Homer</label>
+      <label><input type="radio" name="q3" value="dickens"> Dickens</label>
+    </div>
+  </div>
+  <div class="question-bubble" id="question4">
+    <p>4. What is the chemical symbol for water?</p>
+    <div class="quiz_answers">
+      <label><input type="radio" name="q4" value="h2o"> H2O</label>
+      <label><input type="radio" name="q4" value="co2"> CO2</label>
+      <label><input type="radio" name="q4" value="nacl"> NaCl</label>
+      <label><input type="radio" name="q4" value="ch4"> CH4</label>
+    </div>
+  </div>
+  <button class="button" id="quiz_done_button" onclick="submitAnswers()">Done</button>
+</div>
+
+<div id="quizEnd_page">
+  <a id="back_to_quiz" href="#" class="back-button">&larr; Back to Lesson 4</a>
+  <h2 id="title" id="quizEnd">Slayy!</h2>
+  
+  <div id="content">
+    <div class="chat-container" style="width: 100%; height: 100%;">
+      <img id="character_image" src="./assets/result.png" alt="Character Image">
+      <p class="chat" id="result">Here is your result.</p>
+    </div>
+  </div>
+  <a href="https://www.fidelity.com/financial-forward/learning-lab/library/K-2" target="_blank"><button class="button" id="explore_button">Explore Fidelity</button></a>
+
+</div>
+
 
   <div id="game-container">
     <!-- Your game content goes here -->
@@ -115,17 +171,23 @@
     <a class="back-button" href="#" id="back-to-home">&larr; Back to Home</a>
     <div id="popup" style="display: none;">
       <div id="popup-content">
-        <p>Financial Concepts</p>
-        <p>Here are some financial concepts:</p>
+        <p>Did You Know?</p>
+        <p id="fact-text">Random facts go here</p>
         <!-- You can dynamically populate the financial concepts here -->
         <button id="continue-button">Continue</button>
       </div>
     </div>
   </div>
-
+  <script>
+    showRandomFact();
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="../src/main.js"></script>
   <script src="./game.js"></script>
+  <script src="./quiz.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/confetti-js"></script>
+
+
 </body>
 </html>

@@ -76,13 +76,30 @@ $(document).ready(function() {
   // Function to show a random financial fact
   function showRandomFact() {
     const facts = [
-      "Fact 1: Financial literacy can empower individuals to make informed financial decisions.",
-      "Fact 2: Saving even small amounts regularly can lead to significant financial growth over time.",
-      // Add more facts here...
+      "Saving money grows like magic? Compound interest turns pennies into treasure chests over time!",
+      "Budgeting is like leveling up in a financial game. Can you beat your high score and conquer your money goals?",
+      "Emergency funds are your secret stash for rainy days. Aim to fill it with enough gold coins to weather any storm!",
+      "Diversification is like building an all-star team for your finances. Mix and match your assets to conquer risk!",
+      "Your credit score is the hero of your financial story, battling evil interest rates and saving you gold coins!",
+      "Paying off high-interest debt is like defeating the final boss in a video game. Victory means no more interest draining your treasure chest!",
+      "Retirement accounts are like time-traveling portals, transporting your gold coins into a future where you can live like royalty!",
+      "Asset allocation is the strategy game of investing—balance your knights, wizards, and rogues for an epic financial fortress!",
+      "Rebalancing your portfolio is like leveling up your characters in a role-playing game. Keep them balanced for financial success!",
+      "Dollar-cost averaging is the secret potion for smooth sailing through market ups and downs. Keep investing regularly and watch your wealth grow!",
+      "Long-term care insurance is your shield against healthcare dragons. Breathe fire back at those pesky expenses!",
+      "Mastering needs vs. wants is the ultimate treasure-hunting skill. Separate the gold coins from the fool's gold and live like a king!",
+      "Mastering financial terms unlocks your inner wizardry! Learn the spells and wield your financial power!",
+      "Insurance is your shield against life's surprises. It's like having a superhero cape that protects your treasure!",
+      "Estate planning ensures your treasure is passed down to future generations. Leave behind a legacy fit for royalty!",
+      "Tax planning is the art of keeping more gold coins for yourself. Dodge the taxman's arrows and keep your treasure safe!",
+      "Education savings plans are like magic wands, conjuring up funds for your child's future education without breaking a sweat!",
+      "Watch out for sneaky investment fees—they're like goblins trying to steal your treasure! Keep an eye on your accounts and fend them off!",
+      "Beware of financial scams—they're traps set by mischievous imps looking to steal your treasure! Stay vigilant and protect your coins!",
+      "Reviewing your financial goals is like plotting your next epic quest. Adjust your course and keep striving for financial greatness!",
     ];
 
     const randomFact = facts[Math.floor(Math.random() * facts.length)];
-    alert(randomFact);
+    $('#fact-text').text(randomFact); // Displaying fact in the fact container
     showPopup();
   }
 
