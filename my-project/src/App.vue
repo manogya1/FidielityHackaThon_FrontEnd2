@@ -1,15 +1,56 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <LessonComponent v-if="currentLesson" :lesson="currentLesson" :onNextLesson="nextLesson" />
+    <QuestionComponent v-if="currentQuestion" :question="currentQuestion" :onAnswerChecked="checkAnswer" />
+    <ExplanationComponent v-if="explanation" :explanation="explanation" />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import LessonComponent from './components/LessonComponent.vue';
+import QuestionComponent from './components/QuestionComponent.vue';
+import ExplanationComponent from './components/ExplanationComponent.vue';
+import lessonData from '../data.js';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    LessonComponent,
+    QuestionComponent,
+    ExplanationComponent
+  },
+  data() {
+    return {
+      lessons: lessonData.lessons,
+      currentLessonIndex: 0,
+      currentQuestionIndex: 0,
+      currentLesson: null,
+      currentQuestion: null,
+      explanation: null
+    };
+  },
+  methods: {
+    nextLesson() {
+      if (this.currentLessonIndex < this.lessons.length - 1) {
+        this.currentLessonIndex++;
+        this.currentLesson = this.lessons[this.currentLessonIndex];
+        this.currentQuestionIndex = 0;
+        this.currentQuestion = this.currentLesson.questions[this.currentQuestionIndex];
+        this.explanation = null;
+      }
+    },
+    checkAnswer(selectedOption) {
+      const correctAnswer = this.currentQuestion.answer;
+      if (selectedOption === correctAnswer) {
+        this.explanation = "Correct!";
+      } else {
+        this.explanation = "Incorrect. Try again!";
+      }
+    }
+  },
+  created() {
+    this.currentLesson = this.lessons[this.currentLessonIndex];
+    this.currentQuestion = this.currentLesson.questions[this.currentQuestionIndex];
   }
 }
 </script>
