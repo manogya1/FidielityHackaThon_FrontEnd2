@@ -1,4 +1,18 @@
 # Fidelity Hacathon Project
 A web application that simplifies Fidelity K-2 financial concepts for kids in a more interactive way.
+#DEMO
 
-<img width="648" alt="Screenshot 2024-06-04 at 3 14 49 PM" src="https://github.com/manogya1/FidielityHackaThon_FrontEnd2/assets/122557631/8aa56e7e-0877-4429-a16a-76608c80d3c6">
+Home Page and Financial Literacy Lessons
+https://github.com/manogya1/FidielityHackaThon_FrontEnd2/assets/122557631/177363f2-610e-446f-b3e3-8ded059f1006
+
+Quiz after Lessons are completed
+https://github.com/manogya1/FidielityHackaThon_FrontEnd2/assets/122557631/0db13067-210e-4464-a64b-d2c7dc4a61ed
+
+Result Page
+https://github.com/manogya1/FidielityHackaThon_FrontEnd2/assets/122557631/2e453a98-4860-4098-ba22-ca5f17af7638
+
+Tic Tac Toe Game with fun Money tips.
+https://github.com/manogya1/FidielityHackaThon_FrontEnd2/assets/122557631/94804abb-5482-4364-a890-f53dc9373e67
+
+
+
