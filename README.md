@@ -3,9 +3,7 @@ A web application that simplifies Fidelity K-2 financial concepts for kids in a 
 #DEMO
 
 Home Page and Financial Literacy Lessons
-![](https://github.com/manogya1/FidielityHackaThon_FrontEnd2/assets/122557631/177363f2-610e-446f-b3e3-8ded059f1006)(video:
-  file: birds.mp4
-  size: 80)
+![width="200"](https://github.com/manogya1/FidielityHackaThon_FrontEnd2/assets/122557631/177363f2-610e-446f-b3e3-8ded059f1006)
 <video width="200" height="220" src="https://github.com/manogya1/FidielityHackaThon_FrontEnd2/assets/122557631/177363f2-610e-446f-b3e3-8ded059f1006" controls></video>
 
 Quiz after Lessons are completed
